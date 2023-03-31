@@ -1,0 +1,37 @@
+.product_star{
+    color: rgb(255, 255, 7);
+}
+.price{
+    font-size: 22px;
+}
+.info{
+    font-weight: 500;
+    width: 80%;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: white;
+    z-index: 1;
+}
+.product > img{
+    max-height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+.product_button{
+    background: orange;
+    border: 1px solid;
+    margin-top: 5px;
+    border-color: orange;
+    color: black;
+    cursor: pointer;
+}
